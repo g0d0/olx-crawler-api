@@ -26,16 +26,6 @@ class QueryResultItem
         $this->price = $this->extractPrice($node);
     }
 
-    // private function __construct(array $attrs)
-    // {
-    //     $this->category = $attrs['category'];
-    //     $this->title = $attrs['title'];
-    //     $this->href = $attrs['href'];
-    //     $this->image = $attrs['image'];
-    //     $this->region = $attrs['region'];
-    //     $this->price = $attrs['price'];
-    // }
-
     public function getCategory() : string
     {
         return $this->category;
